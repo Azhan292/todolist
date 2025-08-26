@@ -8,8 +8,9 @@ const { initializeDatabase } = require("./src/database/db");
 initializeDatabase();
 
 const app = express();
+const allowedOrigins = ["http://localhost:3000"];
 
-const allowedOrigins = ["http://13.50.2.241:3000", "http://localhost:3000"];
+// const allowedOrigins = ["http://13.50.2.241:300", "http://localhost:3000"];
 
 const corsOptions = {
   origin: function (origin, callback) {
