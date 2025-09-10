@@ -8,7 +8,7 @@ const { initializeDatabase } = require("./src/database/db");
 initializeDatabase();
 
 const app = express();
-const allowedOrigins = ["http://localhost:3000"];
+const allowedOrigins = ["http://localhost:3000", "http://3.232.155.51:3000"];
 
 // const allowedOrigins = ["http://13.50.2.241:300", "http://localhost:3000"];
 
