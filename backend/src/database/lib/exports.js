@@ -1,9 +1,9 @@
 const axios = require("axios");
 const { CloudTasksClient } = require("@google-cloud/tasks");
 
-const stripe = require("stripe")(
-  "sk_test_51O5LBGIlHDizTIpPNELCoD5obB9exf4gMtJ901seT2b9Hoq6AZQDZeuYmuOX0xoRHCThX0ESwhyd985w4rf6dMJk00xE2DYSGW"
-);
+// const stripe = require("stripe")(
+//   "sk_test_51O5LBGIlHDizTIpPNELCoD5obB9exf4gMtJ901seT2b9Hoq6AZQDZeuYmuOX0xoRHCThX0ESwhyd985w4rf6dMJk00xE2DYSGW"
+// );
 const PAGE_SIZE = 20;
 const jwtTokenSecret = process.env;
 const secKey = process.env.SEC_KEY;
